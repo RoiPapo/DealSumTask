@@ -12,7 +12,7 @@ class App extends Component {
         </header>
 
         <Menu/>
-        
+        <p className="footer"> * <b>Cumulative Distance</b> represents a sum of the <a className="grayLink" href="https://en.wikipedia.org/wiki/Levenshtein_distance" >Levenshtein distances</a> from all other items in its group.</p>
       </div>
     );
   }
